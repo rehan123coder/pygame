@@ -5,11 +5,11 @@ def main ():
     screen=pygame.display.set_mode((SH,SW))
     pygame.display.set_caption("my first game")
     colors ={
-        'red':pygame.color('red'),
-        'green':pygame.color('green'),
-        'blue':pygame.color('blue'),
-        'yellow':pygame.color('yellow'),
-        'white':pygame.color('white')
+        'red':pygame.Color('red'),
+        'green':pygame.Color('green'),
+        'blue':pygame.Color('blue'),
+        'yellow':pygame.Color('yellow'),
+        'white':pygame.Color('white')
     }
     current__colour=colors('white')
     x,y=30,30
